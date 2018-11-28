@@ -20,7 +20,7 @@ every order.
    the `</body>` tag:
 
 ```html
-<script src='https://shopify-add-to-cart.ca.la/add.js'></script>
+<script src='https://ca-la.github.io/shopify-add-to-cart/add.js'></script>
 <script>window.autoAddToCart('12345');</script>
 ```
 
