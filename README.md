@@ -10,10 +10,16 @@ Add the following to your Shopify theme:
 
 ```html
 <script src='https://ca-la.github.io/shopify-add-to-cart/add.js'></script>
-<script>window.autoAddToCart('MY_VARIANT_ID');</script>
+<script>window.ShopifyAddToCart.autoAdd('MY_VARIANT_ID');</script>
 ```
 
 — Replace `MY_VARIANT_ID` with the ID of the variant for the item you'd like to add to each cart.
+
+## Hiding items from the cart (beta)
+
+```html
+<script>window.ShopifyAddToCart.hideCartItems('MY_VARIANT_ID');</script>
+```
 
 ## Finding your Variant ID
 
