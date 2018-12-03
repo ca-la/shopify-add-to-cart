@@ -9,7 +9,7 @@
   "scripts": {
     "format": "prettier --write --single-quote add.ts",
     "clean": "rm docs/*",
-    "build": "npm run clean && tsc add.ts --outDir docs",
+    "build": "npm run clean && tsc add.ts --outDir docs -m umd",
     "test": "npm run build && prettier --single-quote -l add.ts"
   },
   "repository": {
