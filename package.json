@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "format": "prettier --write --single-quote add.ts",
+    "format": "prettier --write src/add.ts",
     "clean": "rm docs/* || true",
     "build": "npm run clean && tsc",
     "test": "npm run build && prettier --single-quote -l add.ts"
@@ -19,7 +19,7 @@
   "author": "CALA <devops@ca.la>",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^1.15.2",
+    "prettier": "^2.0.5",
     "typescript": "^3.1.6"
   },
   "dependencies": {}
